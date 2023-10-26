@@ -26,11 +26,11 @@ body {
 }
 
 .information {
-    width: 40%;
+    width: 35%;
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: #6efaff; 
+    background-color: #6efaff;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -42,7 +42,7 @@ body {
 }
 
 .info-childs h2 {
-    font-size: 2.5rem;
+    font-size: 2.5px;
 }
 
 .info-childs p {
@@ -69,7 +69,8 @@ body {
 }
 
 .form-information {
-    display: flex;
+    height:max-content ;
+    display:flex;
     align-items: center ;
     justify-content: center ;
     width: 60%;
@@ -80,7 +81,8 @@ body {
 }
 
 .form-information-childs {
-    padding: 0px 30px;
+    width: 60%;
+    padding: 5px 30px;
 }
 
 .form-information-childs h2 {
@@ -89,7 +91,7 @@ body {
 }
 
 .form-information-childs p {
-   color: #555; 
+   color: #555;
 }
 
 .icons {
@@ -127,8 +129,8 @@ body {
 }
 
 .form label input {
-    width: 100%;
-    padding: 10px;
+    width: 200%;
+    padding: 5px;
     background-color: #fff;
     border: none;
     outline: none;
@@ -159,6 +161,17 @@ body {
     position: absolute;
     transform: translateY(-300%);
 }
+
+.form label span{
+    width: 200%;
+    padding: 5px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #000000 ;
+}
+
 
 /* RESPONSIVE FORM */
 

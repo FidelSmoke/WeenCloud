@@ -11,6 +11,7 @@
     <title>Ween Cloud</title>
 </head>
 <body>
+
     <div class="container-form register">
         <div class="information">            
             <div class="info-childs">
@@ -21,14 +22,15 @@
         </div>
          <div class="form-information">
             <div class="form-information-childs">
-                <h2>Crear Cuenta </h2>
-                <div class="icons">
+                <h2>Crea Tu Cuenta </h2>
+                <!-- <div class="icons">
                    <a href="http://www.facebook.com/profile.php?id=61552005853511"> <i class  ='bx bxl-facebook'> </a></i>
                    <a href="http://www.instagram.com/weencloud/"> <i class ='bx bxl-instagram' ></a></i>    
-                </div>
+                </div> -->
                 <form action="../controlador/controlador_registro_usuario.php" class="form" method="POST">
-                    <label>
 
+
+                    <label>
                         <i class='bx bx-user'></i>
                         <input type="text" name="nombrec" placeholder="Nombre Completo">
                     </label>
@@ -74,6 +76,8 @@
                         <i class='bx bx-id-card' ></i>
                         <input type="text" name= "barrio"placeholder="nombre de tu barrio">
                     </label>
+    
+                    <div class="form-information">
 
                     <label>
                     <i class='bx bx-id-card' ></i>
@@ -92,7 +96,7 @@
             <span class="details">Genero</span>
             
             <select name="genero" id="">
-              <option value="" disabled selected></option>
+             <option value="" disabled selected></option>
               <option value="Masculino">Masculino</option>
               <option value="Femenino">Femenino</option>
               <option value="Prefiero no decirlo">Prefiero no decirlo</option>
@@ -100,7 +104,7 @@
 
           </label>
 
-
+                    </div>
 
 
                      <input type="submit" value="Registrate" name="registro">
