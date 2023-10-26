@@ -171,6 +171,15 @@ body {
     border-radius: 20px;
     color: #000000 ;
 }
+.form label select {
+    width: 200%;
+    padding: 5px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #000000 ;
+}
 
 
 /* RESPONSIVE FORM */
