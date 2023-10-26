@@ -1,6 +1,6 @@
 <?php
 include("../conexion/conexion.php");
-if (!empty($_POST["index_registrate"])) {
+if (!empty($_POST["registro"])) {
     if (empty($_POST["nombrec"]) or empty($_POST["email"]) or empty($_POST["numero"]) or empty($_POST["tdocumento"]) or empty($_POST["contraseña"]) or empty($_POST["nu_documento"])or empty($_POST["conficontraseña"]) or empty($_POST["barrio"]) or empty($_POST["rol"]) or empty($_POST["genero"])) {
         echo('Debes llenar todos los campos');
     } else {
@@ -17,7 +17,7 @@ if (!empty($_POST["index_registrate"])) {
         $rol=$_POST['rol'];
         $genero=$_POST['genero'];
         
-        $msql = "SELECT * FROM index_registrate WHERE email='$email'";
+        $msql = "SELECT * FROM registro WHERE email='$email'";
         $result = $con->query($msql);
 
         if ($result->num_rows > 0) {
@@ -25,7 +25,7 @@ if (!empty($_POST["index_registrate"])) {
             header('location:../Login/index.php');
         } else {
 
-        $sql=$con->query("INSERT INTO index_registrate (nomcom,email,numtel,pass,confirpass,genero,numdoc,tipdoc,barrio,rol)VALUES('$nombrec','$email','$numero','$hash','$hash','$genero','$nu_documento','$documento','$barrio','$rol')");
+        $sql=$con->query("INSERT INTO registro (nomcom,email,numtel,pass,confirpass,genero,numdoc,tipdoc,barrio,rol)VALUES('$nombrec','$email','$numero','$hash','$hash','$genero','$nu_documento','$documento','$barrio','$rol')");
         header('location: ../index.php');
         }
     }

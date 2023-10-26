@@ -72,7 +72,7 @@ body {
     display: flex;
     align-items: center ;
     justify-content: center ;
-    width: 60%;
+    width: 40%;
     text-align:center;
     background-color:#f8f8f8;
     border-top-right-radius: 20px;
@@ -80,7 +80,7 @@ body {
 }
 
 .form-information-childs {
-    padding: 0 30px;
+    padding: 0px 30px;
 }
 
 .form-information-childs h2 {

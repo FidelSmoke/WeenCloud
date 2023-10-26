@@ -34,18 +34,18 @@
                     </label>
                     <label>
 
-                        <i class='bx bx-envelope' ></i>
+                        <i class='bx bx-envelope'></i>
                         <input type="email" name="email" placeholder="Correo Electronico">
                     </label>
                     <label>
                         
                         <i class='bx bx-phone'></i>
-                        <input type="tel" name="numero" placeholder="Numero de tel">
+                        <input type="tel" name="numero" placeholder="Numero de telefono">
                     </label>
 
                     <label>
                         
-                        <i class='bx bx-id-card' ></i>
+                        <i class='bx bx-id-card'></i>
                         <input type="text" name= "tdocumento" placeholder="Tipo de documento">
                     </label>
 
@@ -55,31 +55,59 @@
                         <input type="password" name="contraseña" placeholder="contraseña">
                     </label>
 
-                    <!-- <label>
+        
+                    <label>
                         
                         <i class='bx bx-id-card' ></i>
-                        <input type="tel" placeholder="numero de documento">
+                        <input type="text" name= "nu_documento"placeholder="numero de documento">
+                    </label>
+
+                    <label>
+                        
+                        <i class='bx bx-id-card' ></i>
+                        <input type="password" name="conficontraseña"  placeholder="confirmar contraseña">
                     </label>
 
 
                     <label>
                         
                         <i class='bx bx-id-card' ></i>
-                        <input type="tel" placeholder="numero de documento">
+                        <input type="text" name= "barrio"placeholder="nombre de tu barrio">
                     </label>
 
-
                     <label>
-                        
-                        <i class='bx bx-id-card' ></i>
-                        <input type="tel" placeholder="numero de documento">
-                    </label> -->
+                    <i class='bx bx-id-card' ></i>
+            <span class="details">Rol</span>
+            
+            <select name="rol" id="">
+              <option value="" disabled selected></option>
+              <option value="Empresario">Empresario</option>
+              <option value="Vacante">Vacante</option>
+            </select>
+    
+                  </label>
 
-                     <input type="submit" value="Registrate">
+                  <label>
+                  <i class='bx bx-id-card' ></i>
+            <span class="details">Genero</span>
+            
+            <select name="genero" id="">
+              <option value="" disabled selected></option>
+              <option value="Masculino">Masculino</option>
+              <option value="Femenino">Femenino</option>
+              <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+            </select>
+
+          </label>
+
+
+
+
+                     <input type="submit" value="Registrate" name="registro">
+
                      <?php
 include("../controlador/controlador_registro_usuario.php");
-
-            ?>
+                    ?>
                 </form>
             </div>
         </div>
