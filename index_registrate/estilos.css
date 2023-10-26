@@ -10,8 +10,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    /* background-image: url(../IMG/imagen67.avif); */
-    background-color: #9191bd;
+    background-image: url(../IMG/imagen67.avif);
+    /* background-color: #9191bd; */
     background-size: cover;
 }
 
