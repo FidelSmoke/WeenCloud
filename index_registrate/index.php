@@ -31,7 +31,7 @@
 
 
                     <label>
-                        <i class='bx bx-user'></i>
+                    <i class='bx bx-user-circle'></i>
                         <input type="text" name="nombrec" placeholder="Nombre Completo">
                     </label>
                     <label>
@@ -53,8 +53,8 @@
 
                     <label>
                         
-                        <i class='bx bx-id-card' ></i>
-                        <input type="password" name="contraseña" placeholder="contraseña">
+                    <i class='bx bx-lock-alt'></i>
+                        <input type="password" name="contraseña" placeholder="Contraseña">
                     </label>
 
         
@@ -66,21 +66,21 @@
 
                     <label>
                         
-                        <i class='bx bx-id-card' ></i>
+                    <i class='bx bx-lock-alt'></i>
                         <input type="password" name="conficontraseña"  placeholder="confirmar contraseña">
                     </label>
 
 
                     <label>
                         
-                        <i class='bx bx-id-card' ></i>
+                    <i class='bx bx-cloud'></i>
                         <input type="text" name= "barrio"placeholder="nombre de tu barrio">
                     </label>
     
                     <div class="form-information">
 
                     <label>
-                    <i class='bx bx-id-card' ></i>
+                    <i class='bx bxs-registered'></i>
             <span class="details">Rol</span>
             
             <select name="rol" id="">
@@ -92,7 +92,7 @@
                   </label>
 
                   <label>
-                  <i class='bx bx-id-card' ></i>
+                  <i class='bx bxs-user' ></i>
             <span class="details">Genero</span>
             
             <select name="genero" id="">
@@ -143,7 +143,7 @@ include("../controlador/controlador_registro_usuario.php");
                 </label>
 
                 <label>
-                    <i class='bx bx-id-card' ></i>
+                <i class='bx bx-lock-alt'></i>
                     <input placeholder="ingresa tu contraseña" name="contraseña" type="password" id="Contraseña">
                 </label>
                 <input type="submit" value="Iniciar Sesion" name="login">
