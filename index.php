@@ -22,6 +22,7 @@
                 <img src="IMG/menu-btn.png" class="menu-icono" alt="">
             </label>
             <nav class="navbar">
+
                 <!-- <ul>
                     <li>
                         <a href="index_registrate/index.html"></a>

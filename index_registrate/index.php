@@ -109,7 +109,7 @@
 include("../controlador/controlador_registro_usuario.php");
                     ?>
 
-                    <!-- kjaJAjkajJAjkkjaA -->
+                    
                 </form>
             </div>
         </div>
