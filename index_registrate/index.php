@@ -21,7 +21,7 @@
         </div>
          <div class="form-information">
             <div class="form-information-childs">
-                <h2>Crear Cuenta</h2>
+                <h2>Crear Cuenta </h2>
                 <div class="icons">
                    <a href="http://www.facebook.com/profile.php?id=61552005853511"> <i class  ='bx bxl-facebook'> </a></i>
                    <a href="http://www.instagram.com/weencloud/"> <i class ='bx bxl-instagram' ></a></i>    
@@ -108,6 +108,8 @@
                      <?php
 include("../controlador/controlador_registro_usuario.php");
                     ?>
+
+                    <!-- kjaJAjkajJAjkkjaA -->
                 </form>
             </div>
         </div>
