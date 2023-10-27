@@ -207,4 +207,4 @@
 <!-- VIDEO DE LA CRUD -->
 
 
-<!-- https://www.youtube.com/watch?v=HKSb_X-GThs&list=PL-6S8_azQ-MpM0BaKz0VPtnczB6MiOflq&index=2 -->
+<!-- https://youtu.be/3PAKPwKJnKM -->
