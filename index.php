@@ -194,3 +194,8 @@ include('../controlador/controlador_login_usuario.php');
 if (isset($_SESSION))
 
 ?> -->
+
+<!-- VIDEO DE LA CRUD -->
+
+
+https://www.youtube.com/watch?v=HKSb_X-GThs&list=PL-6S8_azQ-MpM0BaKz0VPtnczB6MiOflq&index=2
