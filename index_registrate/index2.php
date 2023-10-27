@@ -40,7 +40,7 @@
                     
                                     <?php
                     include('../controlador/controlador_login_usuario.php');
-                    if (isset($_SESSION))
+
                     
                     ?>
 

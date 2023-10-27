@@ -7,11 +7,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="estiloss.css">
+    <link rel="stylesheet" href="estilos.css">
     <title>Ween Cloud</title>
 </head>
 <body>
-
+<a class="nube" href="../index.php"><img src="../IMG/clouds (1).png" alt=""></a>
     <div class="container-form register">
         <div class="information">            
             <div class="info-childs">
@@ -148,8 +148,6 @@ include("../controlador/controlador_registro_usuario.php");
                 <input type="submit" value="Iniciar Sesion" name="login">
 
                 <?php
-include('../controlador/controlador_login_usuario.php');
-if (isset($_SESSION))
 
 ?>
             </form>

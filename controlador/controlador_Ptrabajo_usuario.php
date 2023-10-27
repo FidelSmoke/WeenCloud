@@ -1,5 +1,5 @@
 <?php
-include ("../conexion/conexion.php");
+include ("conexion.php");
  if (!empty($_POST["ptra"])){
     if (empty($_POST["lutrabajo"])or empty($_POST["experiencia"]) or empty($_POST["salario"]) or empty($_POST["jornada"]) or empty($_POST["contrato"]) or empty($_POST["cargo_categoria"])) {
    echo  ('<p>Uno de los campos esta vacio</p>');
