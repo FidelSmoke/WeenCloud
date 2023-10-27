@@ -16,7 +16,7 @@
         <div class="menu container">
             <!-- <img src="IMG/hero.svg"> -->
             <img src="IMG/clouds (1).png" alt="">
-            <a href="" class="logo">We </a>
+            <a href="" class="logo">Ween Cloud </a>
             <input type="checkbox" id="menu">
             <label for="menu">
                 <img src="IMG/menu-btn.png" class="menu-icono" alt="" src=<input type="button" onclick="history.back()" name="volver atrás" value="volver atrás">>
@@ -29,7 +29,7 @@
                     </li>
                 </ul> -->
                 <ul>
-                    <li> <a href="index_registrate/index.php">Registrarse</a></li>
+                    <!-- <li> <a href="index_registrate/index.php">Registrarse</a></li> -->
                     <!-- <li> <a href="Login/index.php">Iniciar sesión</a></li> -->
                     <li> <a href="#servicios">Servicios</a></li>
                     <li> <a href="#contacto">Contactanos</a></li>
