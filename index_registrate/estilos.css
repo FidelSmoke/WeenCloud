@@ -14,7 +14,13 @@ body {
     /* background-color: #9191bd; */
     background-size: cover;
 }
-
+.nube {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 50px;
+}
 .container-form {
     display: flex;
     border-radius: 20px;
