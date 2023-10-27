@@ -7,7 +7,7 @@ if (!empty($_POST["login"])) {
         
         $email=$_POST["email"];
         $contraseña=$_POST["contraseña"];
-        $sql=$con->query("SELECT *FROM registro WHERE email='$email'");
+        $sql=$con->query("SELECT * FROM registro WHERE email='$email'");
         $resultado=$sql;
         if ($resultado->num_rows==1){
             $usuario = mysqli_fetch_assoc($resultado);

@@ -29,7 +29,7 @@
                     </li>
                 </ul> -->
                 <ul>
-                    <!-- <li> <a href="index_registrate/index.php">Registrarse</a></li> -->
+                    <li> <a href="index_registrate/index.php">Registrarse</a></li>
                     <!-- <li> <a href="Login/index.php">Iniciar sesión</a></li> -->
                     <li> <a href="#servicios">Servicios</a></li>
                     <li> <a href="#contacto">Contactanos</a></li>
@@ -198,4 +198,4 @@ if (isset($_SESSION))
 <!-- VIDEO DE LA CRUD -->
 
 
-https://www.youtube.com/watch?v=HKSb_X-GThs&list=PL-6S8_azQ-MpM0BaKz0VPtnczB6MiOflq&index=2
+<!-- https://www.youtube.com/watch?v=HKSb_X-GThs&list=PL-6S8_azQ-MpM0BaKz0VPtnczB6MiOflq&index=2 -->
