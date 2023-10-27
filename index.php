@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ween Cloud</title>
-    <link rel="stylesheet" href="estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <?php
@@ -43,7 +43,14 @@
                     <!-- <li> <a href="Login/index.php">Iniciar sesión</a></li> -->
                     <li> <a href="#servicios">Servicios</a></li>
                     <li> <a href="#contacto">Contactanos</a></li>
-                    <li> <form action="controlador/logout.php" method="POST"> <input name="logout" type="submit" value="cerrar sesion" class="rojo"></form></li>
+                    <li> <form action="controlador/logout.php" method="POST"> <input style=" 
+                    background-color: transparent;
+                     font-size: 18px;
+                    padding: 20px;
+                    color: #ffffff;
+                    display: block;
+                    border:none; " 
+                    name="logout" type="submit" value="Cerrar sesion" class="inputnavbar"></form></li>
                     
                 </ul>
             </nav>
