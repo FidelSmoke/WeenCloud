@@ -16,7 +16,7 @@
         <div class="menu container">
             <!-- <img src="IMG/hero.svg"> -->
             <img src="IMG/clouds (1).png" alt="">
-            <a href="" class="logo">Ween Cloud </a>
+            <a href="" class="logo">We </a>
             <input type="checkbox" id="menu">
             <label for="menu">
                 <img src="IMG/menu-btn.png" class="menu-icono" alt="" src=<input type="button" onclick="history.back()" name="volver atrás" value="volver atrás">>
