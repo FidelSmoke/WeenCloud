@@ -312,6 +312,12 @@ hr {
 }
 
 
+.botton {
+    background-image: url(../img/clouds.png);
+}
+
+
+
 @media (max-width:991px) {
     
     .menu {

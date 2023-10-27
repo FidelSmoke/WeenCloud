@@ -19,7 +19,7 @@
             <a href="" class="logo">Ween Cloud </a>
             <input type="checkbox" id="menu">
             <label for="menu">
-                <img src="IMG/menu-btn.png" class="menu-icono" alt="">
+                <img src="IMG/menu-btn.png" class="menu-icono" alt="" src=<input type="button" onclick="history.back()" name="volver atrás" value="volver atrás">>
             </label>
             <nav class="navbar">
 

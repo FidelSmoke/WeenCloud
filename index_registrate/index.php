@@ -106,8 +106,7 @@
 
                     </div>
 
-
-                     <input type="submit" value="Registrate" name="registro">
+                     <input type="submit" value="Registrate" name="registro" >
 
                      <?php
 include("../controlador/controlador_registro_usuario.php");

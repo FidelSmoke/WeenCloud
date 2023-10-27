@@ -26,7 +26,7 @@ if (!empty($_POST["registro"])) {
         } else {
 
         $sql=$con->query("INSERT INTO registro (nomcom,email,numtel,pass,confirpass,genero,numdoc,tipdoc,barrio,rol)VALUES('$nombrec','$email','$numero','$hash','$hash','$genero','$nu_documento','$documento','$barrio','$rol')");
-        header('location: ../index.php');
+        header('location: ../index_registrate/index2.php');
         }
     }
 }
