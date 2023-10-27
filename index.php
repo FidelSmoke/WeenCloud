@@ -67,7 +67,7 @@
             <p>
                 Si buscas trabajo ¡Ween Cloud es tu mejor aliado!
             </p>
-            <a href="CRUD-WC/app/peliculas/index.php" class="btn-3">Ingresar</a>
+            <a href="./CRUD.PHP/index.php" class="btn-3">Ingresar</a>
         <!-- </div>
         <div class="service">
             <img src="IMG/icon3.svg" alt="">
@@ -98,7 +98,7 @@
                 <p>
                     En nuestro apartado si eres una persona que necesita hacer público tu emprendimiento o negocio, en este podrás proporcionar la oferta de trabajo si necesitas vacantes para esta, y hacer de esta publicación un éxito y encontrar la mejor vacante para esta.
                 </p>
-                <!-- <a href="#" class="btn-3">Informacion</a> -->
+                <!-- <a href="" class="btn-3">Informacion</a> -->
 
             </div>
         </div>

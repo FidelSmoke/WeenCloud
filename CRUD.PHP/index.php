@@ -60,7 +60,7 @@
 
  <?php
    include "modelo/conexion.php";
-   $sql = $conexion->query(" SELECT * FROM pelivula");   
+   $sql = $conexion->query(" SELECT * FROM weencloud");   
    while ($datos = $sql->fetch_object()) { ?>
  <tr>
                     <td>Mark</td>
