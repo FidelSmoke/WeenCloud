@@ -30,4 +30,5 @@ require_once("foooter.php");
   
   ?>
 </nav>
+<div class="container-fluid">
     
