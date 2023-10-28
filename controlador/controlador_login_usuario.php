@@ -12,6 +12,7 @@ if (!empty($_POST["login"])) {
         $resultado=$sql;
         if ($resultado->num_rows==1){
             $usuario = mysqli_fetch_assoc($resultado);
+            echo ('Contraseña Incorrecta');
         }
             if (password_verify($contraseña, $usuario['pass'])) {
                 // echo('HAS INICIADO BIEN');
