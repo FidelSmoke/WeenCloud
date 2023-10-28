@@ -15,6 +15,13 @@ body {
     background-size: cover;
 }
 
+.nubee {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .container-form {
     display: flex;
     border-radius: 20px;

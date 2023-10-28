@@ -11,18 +11,18 @@
     <title>Ween Cloud</title>
 </head>
 <body>
+                  <a class="nubee" href="../index.php"><img src="../IMG/clouds (1).png" alt=""></a>
                     <div class="container-form login hide">
                         <div class="information">            
                             <div class="info-childs">
                                 <h1>¡¡Bienvenido a Ween Cloud!!</h1>
                                 <p>Para buscar o solicitar un empleo porfavor inicia sesion o registrate con tus datos</p>
-                                <input type="button" value="Registrarse" id="sign-up">
+                                <!-- <input type="button" value="Registrarse" id="sign-up"> -->
                             </div>
                         </div>
                          <div class="form-information">
                             <div class="form-information-childs">
                                 <h2>Iniciar Sesion</h2>
-                                <p>Ir A Ween Cloud</p>
                                 <div class="icons">
                                     <a href="http://www.facebook.com/profile.php?id=61552005853511"> <i class  ='bx bxl-facebook'> </a></i>
                                      <a href="http://www.instagram.com/weencloud/"> <i class ='bx bxl-instagram' ></a></i>      

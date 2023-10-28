@@ -53,16 +53,17 @@
 
                     <label>
                         
-                    <i class='bx bx-lock-alt'></i>
-                        <input type="password" name="contraseña" placeholder="Contraseña">
+                        <i class='bx bx-id-card' ></i>
+                        <input type="text" name= "nu_documento"placeholder="numero de documento">
                     </label>
 
         
                     <label>
                         
-                        <i class='bx bx-id-card' ></i>
-                        <input type="text" name= "nu_documento"placeholder="numero de documento">
+                    <i class='bx bx-lock-alt'></i>
+                        <input type="password" name="contraseña" placeholder="Contraseña">
                     </label>
+
 
                     <label>
                         
@@ -125,7 +126,7 @@ include("../controlador/controlador_registro_usuario.php");
         <div class="info-childs">
             <h1>¡¡Bienvenido a Ween Cloud!!</h1>
             <p>Para buscar o solicitar un empleo porfavor inicia sesion o registrate con tus datos</p>
-            <input type="button" value="Registrarse" id="sign-up">
+            <!-- <input type="button" value="Registrarse" id="sign-up"> -->
         </div>
     </div>
      <div class="form-information">
