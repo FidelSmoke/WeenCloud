@@ -24,7 +24,6 @@
     ?>
     <header>
         <div class="menu container">
-            <!-- <img src="IMG/hero.svg"> -->
             <img src="IMG/clouds (1).png" alt="">
             <a href="" class="logo">Ween Cloud </a>
             <input type="checkbox" id="menu">
@@ -61,8 +60,8 @@
                 <p>
                     Somos un grupo de personas que desarrollaron este banco para facilitar la publicación y la búsqueda de los personales necesitados y empleos en la localidad cuarta de San Cristóbal
                 </p>
-                <!-- <a href="#" class="btn-1">Mas información</a> -->
-                <!-- <a href="#" class="btn-1">Mas informacion</a> -->
+                 <a href="#" class="btn-1">Mas información</a> 
+                 <a href="#" class="btn-1">Mas informacion</a> 
             </div>
             <img src="IMG/astronauta.png" alt="">
         </div>
@@ -114,7 +113,6 @@
                 <p>
                     En nuestro apartado si eres una persona que necesita hacer público tu emprendimiento o negocio, en este podrás proporcionar la oferta de trabajo si necesitas vacantes para esta, y hacer de esta publicación un éxito y encontrar la mejor vacante para esta.
                 </p>
-                <!-- <a href="" class="btn-3">Informacion</a> -->
 
             </div>
         </div>
@@ -129,38 +127,9 @@
                 ¡Nunca fue tan fácil encontrar empleo!.
  
                 </p>
-                <!-- <a href="#" class="btn-3">Informacion</a> -->
-
             </div>
             <img src="IMG/img4.png" alt="">
         </div>
-
-        <!-- <div class="porfolio">
-            <img src="IMG/img3.png" alt="">
-            <div class="porfolio-1">
-                <h3>Porfolio 3</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sed voluptatem quia ipsum culpa
-                    voluptatum tempora dolore at aperiam corporis libero nam omnis facilis rem dicta eos fugit, eveniet
-                    numquam.
-                </p>
-                <a href="#" class="btn-3">Informacion</a>
-            </div>
-        </div> -->
-
-        <!-- <div class="porfolio">
-            <div class="porfolio-2">
-                <h3>Porfolio 4</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sed voluptatem quia ipsum culpa
-                    voluptatum tempora dolore at aperiam corporis libero nam omnis facilis rem dicta eos fugit, eveniet
-                    numquam.
-                </p>
-                <a href="#" class="btn-2">Informacion</a>
-
-            </div>
-            <img src="IMG/img4.png" alt="">
-        </div> -->
     </section>
     <section>
     <footer>
@@ -169,25 +138,15 @@
                 <div class="info-content">
                     <div class="info-price">
                         <h2>Contactanos</h2>
-                        <!-- <p class="price">$3500</p> -->
                         <p>
                             ¿En qué podemos ayudarte?
                             Resuelve tus dudas a través de nuestras redes sociales, cualquier informacion la cual necesites nos las puedes hacer saber atraves de nuestro correo electronico, o a travez de nuestras redes sociales como instagram y Facebook. 
                         </p>
                     </div>
-                    <!-- <div class="info-txt">
-                        <h2>Princing list</h2>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis deleniti obcaecati
-                            inventore nobis quod dolore quia vel ipsa rerum quae. Corporis nisi pariatur mollitia
-                            debitis ipsa delectus natus consequuntur doloremque!
-                        </p>
-                        <a href="#" class="btn-1">Informacion</a>
-                    </div> -->
+               
                 </div>
                 <hr>
                 <div class="enlaces">
-                    <!-- <h3>Logo</h3> -->
                     <img src="IMG/astronaut.png" alt="">
                     <div class="enlace">
                         <li> <a href="https://www.instagram.com/weencloud/">Instagram</a></li>
@@ -202,10 +161,3 @@
 
 </html>
 
-
-
-<!-- VIDEO DE LA CRUD -->
-
-
-<!-- https://youtu.be/3PAKPwKJnKM -->
-<!-- 22:22 -->
