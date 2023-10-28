@@ -20,7 +20,7 @@
     else{
         header('location: index_registrate/');
 
-    }
+    };
     ?>
     <header>
         <div class="menu container">
