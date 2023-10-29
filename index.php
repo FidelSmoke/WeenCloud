@@ -60,7 +60,7 @@
                 <p>
                     Somos un grupo de personas que desarrollaron este banco para facilitar la publicación y la búsqueda de los personales necesitados y empleos en la localidad cuarta de San Cristóbal
                 </p>
-                 <a href="" class="btn-1">Mas información</a> 
+                 <a href="https://youtu.be/iPT_rjltqh0?si=ghRLw4ZxL-UEgAzi" class="btn-1">Mas información</a> 
             </div>
             <img src="IMG/astronauta.png" alt="">
         </div>
