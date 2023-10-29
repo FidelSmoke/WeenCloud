@@ -80,6 +80,10 @@
             <h3>Publica O Busca trabajo</h3>
             <p>
                 Si buscas trabajo ¡Ween Cloud es tu mejor aliado!
+
+
+               <P> Encontraras las oportunidades de empleo, las cuales tienen una mayor facilidad de búsqueda, estamos proyectados a que el usuario se sienta bien a la hora de buscar empleo que mejor opcion que Ween Cloud...
+                ¡Nunca fue tan fácil encontrar empleo!.</P>
             </p>
             <a href="./CRUD-MODAL/index.php" class="btn-3">Ingresar</a>
         <!-- </div>
