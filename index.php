@@ -25,7 +25,7 @@
     <header>
         <div class="menu container">
             <img src="IMG/clouds (1).png" alt="">
-            <a href="https://www.facebook.com/profile.php?id=61552005853511" class="logo">Ween Cloud </a>
+            <a href="https://www.instagram.com/weencloud/" class="logo">Ween Cloud </a>
             <input type="checkbox" id="menu">
             <label for="menu">
                 <img src="IMG/menu-btn.png" class="menu-icono" alt="" src=>
@@ -78,14 +78,12 @@
         <div class="service">
             <img src="IMG/icon2.svg" alt="">
             <h3>Publica O Busca trabajo</h3>
-            <p>
-                Si buscas trabajo ¡Ween Cloud es tu mejor aliado!
-
-
+           
+            <p> Si buscas trabajo ¡Ween Cloud es tu mejor aliado! </p>
                <P> Encontraras las oportunidades de empleo, las cuales tienen una mayor facilidad de búsqueda, estamos proyectados a que el usuario se sienta bien a la hora de buscar empleo que mejor opcion que Ween Cloud...
                 ¡Nunca fue tan fácil encontrar empleo!.</P>
-            </p>
-            <a href="./CRUD-MODAL/index.php" class="btn-3">Ingresar</a>
+            
+            <a href="./CRUD-MODAL/index.php" class="btn-3">Entrar</a>
         <!-- </div>
         <div class="service">
             <img src="IMG/icon3.svg" alt="">

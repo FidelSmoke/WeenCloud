@@ -16,13 +16,13 @@ if (!empty($_POST["registro"])) {
         $barrio=$_POST['barrio'];
         $rol=$_POST['rol'];
         $genero=$_POST['genero'];
-        
+
         $msql = "SELECT * FROM registro WHERE email='$email'";
         $result = $con->query($msql);
 
         if ($result->num_rows > 0) {
-            echo("El correo electrónico ya ha sido registrado. Intente Iniciar sesion");
-            header('location:../Login/index.php');
+            echo("Este usuario ya ha sido registrado. Intenta Iniciar sesion");
+            // header('location:../index_registrate/index2.php');
         } else {
 
         $sql=$con->query("INSERT INTO registro (nomcom,email,numtel,pass,confirpass,genero,numdoc,tipdoc,barrio,rol)VALUES('$nombrec','$email','$numero','$hash','$hash','$genero','$nu_documento','$documento','$barrio','$rol')");
