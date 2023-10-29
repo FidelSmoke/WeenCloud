@@ -25,7 +25,7 @@
     <header>
         <div class="menu container">
             <img src="IMG/clouds (1).png" alt="">
-            <a href="" class="logo">Ween Cloud </a>
+            <a href="https://www.facebook.com/profile.php?id=61552005853511" class="logo">Ween Cloud </a>
             <input type="checkbox" id="menu">
             <label for="menu">
                 <img src="IMG/menu-btn.png" class="menu-icono" alt="" src=>
@@ -60,7 +60,7 @@
                 <p>
                     Somos un grupo de personas que desarrollaron este banco para facilitar la publicación y la búsqueda de los personales necesitados y empleos en la localidad cuarta de San Cristóbal
                 </p>
-                 <a href="#" class="btn-1">Mas información</a> 
+                 <a href="" class="btn-1">Mas información</a> 
             </div>
             <img src="IMG/astronauta.png" alt="">
         </div>
@@ -81,7 +81,7 @@
             <p>
                 Si buscas trabajo ¡Ween Cloud es tu mejor aliado!
             </p>
-            <a href="./crud-modal-php-main/index.php" class="btn-3">Ingresar</a>
+            <a href="./CRUD-MODAL/index.php" class="btn-3">Ingresar</a>
         <!-- </div>
         <div class="service">
             <img src="IMG/icon3.svg" alt="">
