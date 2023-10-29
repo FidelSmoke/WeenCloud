@@ -41,7 +41,7 @@ $dir = "posters/";
     <div class="container py-3">
 
         <h2 class="text-center">Ween Cloud</h2>
-            <P class="row justify-content-center">¡Busca Tu Trabajo!</P>
+            <P class="row justify-content-center">¡Ween Cloud es tu mejor aliado!</P>
         <hr>
 
         <?php if (isset($_SESSION['msg']) && isset($_SESSION['color'])) { ?>
