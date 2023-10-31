@@ -16,7 +16,7 @@
                         <div class="information">            
                             <div class="info-childs">
                                 <h1>¡¡Bienvenido a Ween Cloud!!</h1>
-                                <p>Para buscar o solicitar un empleo porfavor inicia sesion o registrate con tus datos</p>
+                                <p>Para buscar empleo o solicitar empleados porfavor inicia sesion o registrate con tus datos</p>
                             </div>
                         </div>
                          <div class="form-information">

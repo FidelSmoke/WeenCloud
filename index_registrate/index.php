@@ -16,7 +16,7 @@
         <div class="information">            
             <div class="info-childs">
                 <h1>¡¡Bienvenido a Ween Cloud!!</h1>
-                <p>Para buscar o solicitar un empleo porfavor inicia sesion o registrate con tus datos</p>
+                <p>Para buscar empleo o solicitar empleados porfavor inicia sesion o registrate con tus datos</p>
                 <input type="button" value="Inciar Sesion" id="sign-in">
             </div>
         </div>
@@ -125,7 +125,7 @@ include("../controlador/controlador_registro_usuario.php");
     <div class="information">            
         <div class="info-childs">
             <h1>¡¡Bienvenido a Ween Cloud!!</h1>
-            <p>Para buscar o solicitar un empleo porfavor inicia sesion o registrate con tus datos</p>
+            <p>Para buscar empleo o solicitar empleados porfavor inicia sesion o registrate con tus datos</p>
             <!-- <input type="button" value="Registrarse" id="sign-up"> -->
         </div>
     </div>
