@@ -11,7 +11,6 @@ body {
     justify-content: center;
     height: 100vh;
     background-image: url(../IMG/imagen67.png);
-    /* background-color: #9191bd; */
     background-size: cover;
 }
 
@@ -76,7 +75,6 @@ body {
 }
 
 .form-information {
-    /* height:max-content ; */
     display:flex;
     align-items: center ;
     justify-content: center ;
@@ -162,4 +160,4 @@ body {
 
 .form input[type="submit"]:hover {
     background-color: #7a7a9a;
-}
+} 
