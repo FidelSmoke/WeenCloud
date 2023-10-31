@@ -68,7 +68,7 @@
                     <label>
                         
                     <i class='bx bx-lock-alt'></i>
-                        <input type="password" name="conficontraseña"  placeholder="confirmar contraseña">
+                        <input type="password" name="conficontraseña"  placeholder="Confirmar contraseña">
                     </label>
 
 

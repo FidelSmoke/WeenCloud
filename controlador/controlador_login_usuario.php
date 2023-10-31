@@ -20,9 +20,9 @@ if (!empty($_POST["login"])) {
                 header("location: ../index.php");
             }
 
-        else{
-            $_SESSION['maile']='Correo electronico o contraseña incorrecta';
-        }    
+        // else{
+        //     $_SESSION['maile']='Correo electronico o contraseña incorrecta';
+        // }    
             
     
     }
