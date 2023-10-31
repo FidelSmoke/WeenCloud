@@ -54,7 +54,7 @@
                     <label>
                         
                         <i class='bx bx-id-card' ></i>
-                        <input type="text" name= "nu_documento"placeholder="numero de documento">
+                        <input type="text" name= "nu_documento"placeholder="Numero de documento">
                     </label>
 
         
