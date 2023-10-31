@@ -1,16 +1,4 @@
 <?php
-
-/**
- * CRUD modal en PHP y MySQL
- * 
- * Este archivo muestra el listado de registros y las opciones para agregar,
- * editar y eliminar registros desde ventanas modal de Bootstrap
- * @author MRoblesDev
- * @version 1.0
- * https://github.com/mroblesdev
- * 
- */
-
 session_start();
 
 require 'config/database.php';

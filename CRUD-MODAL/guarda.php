@@ -1,15 +1,4 @@
 <?php
-
-/**
- * CRUD modal en PHP y MySQL
- * 
- * Este archivo guarda los datos el registro y la imagen
- * @author MRoblesDev
- * @version 1.0
- * https://github.com/mroblesdev
- * 
- */
-
 session_start();
 
 require 'config/database.php';
@@ -24,7 +13,7 @@ if ($conn->query($sql)) {
     $id = $conn->insert_id;
 
     $_SESSION['color'] = "success";
-    $_SESSION['msg'] = "Registro guardado";
+    $_SESSION['msg'] = "Registro guardado !GRACIAS POR CONFIAR EN WEENCLOUD!";
 
     if ($_FILES['poster']['error'] == UPLOAD_ERR_OK) {
         $permitidos = array("image/jpg", "image/jpeg");

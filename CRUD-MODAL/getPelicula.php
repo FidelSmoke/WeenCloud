@@ -1,15 +1,4 @@
 <?php
-
-/**
- * CRUD modal en PHP y MySQL
- * 
- * Este archivo consulta los datos del registro y los retorna en formato JSON 
- * @author MRoblesDev
- * @version 1.0
- * https://github.com/mroblesdev
- * 
- */
-
 require 'config/database.php';
 
 $id = $conn->real_escape_string($_POST['id']);
