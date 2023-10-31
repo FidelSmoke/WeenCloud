@@ -75,7 +75,7 @@
                     <label>
                         
                     <i class='bx bx-cloud'></i>
-                        <input type="text" name= "barrio"placeholder="nombre de tu barrio">
+                        <input type="text" name= "barrio"placeholder="Nombre de tu barrio">
                     </label>
     
                     <div class="form-information">
