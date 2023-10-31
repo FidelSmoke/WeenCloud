@@ -57,7 +57,7 @@ $dir = "posters/";
                     <th>Numero De Contacto</th>
                     <th>Vacante Que Solicita</th>
                     <th>Hoja De Vida</th>
-                    <th></th>
+                    <th>Acción</th>
                 </tr>
             </thead>
 
@@ -70,9 +70,9 @@ $dir = "posters/";
                         <td><?= $row['genero']; ?></td>
                         <td><img src="<?= $dir . $row['id'] . '.jpg?n=' . time(); ?>" width="100"></td>
                         <td>
-                            <a href="#" class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#editaModal" data-bs-id="<?= $row['id']; ?>"><i class="fa-solid fa-pen-to-square"></i>Editar </a>
+                            <a href="#" class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#editaModal" data-bs-id="<?= $row['id']; ?>"><i class="fa-solid fa-pen-to-square"></i></a>
 
-                            <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#eliminaModal" data-bs-id="<?= $row['id']; ?>"><i class="fa-solid fa-trash"></i></i> Eliminar</a>
+                            <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#eliminaModal" data-bs-id="<?= $row['id']; ?>"><i class="fa-solid fa-trash"></i></i> </a>
                         </td>
                     </tr>
                 <?php } ?>
