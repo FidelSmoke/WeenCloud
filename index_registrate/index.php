@@ -61,7 +61,7 @@
                     <label>
                         
                     <i class='bx bx-lock-alt'></i>
-                        <input type="password" name="contraseña" placeholder="Contraseña">
+                        <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
                     </label>
 
 

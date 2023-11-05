@@ -42,7 +42,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000;   
+    z-index: 1000;
 }
 
 .menu .logo {
@@ -72,7 +72,7 @@ header {
 
 .menu .navbar ul li a:hover {
     color: #0EAEF3;
-} 
+}
 
 #menu {
     display: none;
@@ -89,6 +89,33 @@ header {
 
 .header-content {
     display: flex;
+    float:right;
+    animation: movimiento 2.5s linear infinite;
+}
+
+
+
+.header-content {
+    display: flex;
+    float:right;
+    animation: movimiento 2.5s linear infinite;
+}
+
+.header-content2 img {
+    height: 500px;
+    display: block;
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 .content {
@@ -317,10 +344,8 @@ hr {
     background-image: url(../img/clouds.png);
 }
 
-
-
 @media (max-width:991px) {
-    
+
     .menu {
         padding: 20px;
     }
@@ -380,7 +405,7 @@ hr {
         flex-direction: column;
         padding: 50px 30px 0px 30px;
         margin: 0px 0px 20px 0px;
-        
+
     }
 
     .service {
@@ -443,5 +468,5 @@ hr {
         flex-direction: column;
     }
 
-    
+
 }
