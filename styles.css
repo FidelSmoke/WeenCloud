@@ -90,15 +90,7 @@ header {
 .header-content {
     display: flex;
     float:right;
-    animation: movimiento 2.5s linear infinite;
-}
-
-
-
-.header-content {
-    display: flex;
-    float:right;
-    animation: movimiento 2.5s linear infinite;
+    animation: movimiento 5.9s linear infinite;
 }
 
 .header-content2 img {
