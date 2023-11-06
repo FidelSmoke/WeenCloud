@@ -15,7 +15,7 @@ if (!empty($_POST["login"])) {
             echo ('La contraseña es Incorrecta');
         }
             if (password_verify($contraseña, $usuario['pass'])) {
-                // echo('HAS INICIADO BIEN');
+                 echo('HAS INICIADO BIEN');
                 $_SESSION['on'] = 'on';
                 header("location: ../index.php");
             }

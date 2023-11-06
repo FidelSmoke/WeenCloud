@@ -77,7 +77,7 @@
         </div> -->
         <div class="service">
             <img src="IMG/icon2.svg" alt="">
-            <h3>Publica O Busca trabajo</h3>
+            <h3>Busca Tu Trabajo</h3>
            
             <p> Si buscas trabajo ¡Ween Cloud es tu mejor aliado! </p>
                <P> Encontraras las oportunidades de empleo, las cuales tienen una mayor facilidad de búsqueda, estamos proyectados a que el usuario se sienta bien a la hora de buscar empleo que mejor opcion que Ween Cloud...
