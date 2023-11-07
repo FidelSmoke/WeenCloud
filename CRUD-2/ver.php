@@ -38,8 +38,8 @@
     <input type="text" class="form-control" name="salario" required>
   </div>
   <div class="form-group">
-    <label for="jornada">Jornada</label>
-    <input type="jornada" class="form-control" name="jornada" >
+    <label for="contactanos">¿Te intereso? contactanos</label>
+    <input type="contactanos" class="form-control" name="contactanos" >
   </div>
   <div class="form-group">
     <label for="Cargo_Categoria">Cargo-Categoria</label>

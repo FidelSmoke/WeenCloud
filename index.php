@@ -77,13 +77,13 @@
         </div> -->
         <div class="service">
             <img src="IMG/icon2.svg" alt="">
-            <h3>Busca Tu Trabajo</h3>
+            <h3>Publica O Busca Tu Trabajo</h3>
            
             <p> Si buscas trabajo ¡Ween Cloud es tu mejor aliado! </p>
                <P> Encontraras las oportunidades de empleo, las cuales tienen una mayor facilidad de búsqueda, estamos proyectados a que el usuario se sienta bien a la hora de buscar empleo que mejor opcion que Ween Cloud...
                 ¡Nunca fue tan fácil encontrar empleo!.</P>
             
-            <a href="./CRUD-MODAL/index.php" class="btn-3">Entrar</a>
+            <a href="./CRUD-2/index.php" class="btn-3">Entrar</a>
         <!-- </div>
         <div class="service">
             <img src="IMG/icon3.svg" alt="">

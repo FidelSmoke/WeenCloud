@@ -19,7 +19,7 @@
     </ul>
 <form class="navbar-form navbar-left" role="search" action="./buscar.php">
       <div class="form-group">
-        <input type="text" name="s" class="form-control" placeholder="Busca emepleo por el nombre de tu barrio">
+        <input type="text" name="s" class="form-control" placeholder="Ejemplo Enfermero...">
       </div>
       <button type="submit" class="btn btn-default">&nbsp;<i class="glyphicon glyphicon-search"></i>&nbsp;</button>
     </form>

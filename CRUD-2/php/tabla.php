@@ -13,7 +13,7 @@ $query = $con->query($sql1);
 	<th>Lugar De Trabajo</th>
 	<th>Experiencia</th>
 	<th>Salario</th>
-	<th>Jornada</th>
+	<th>¿Te intereso? contactanos</th>
 	<th>Cargo-Categoria</th>
 	<th>Accion</th>
 </thead>
@@ -22,8 +22,8 @@ $query = $con->query($sql1);
 	<td><?php echo $r["Lutrabajo"]; ?></td>
 	<td><?php echo $r["experiencia"]; ?></td>
 	<td><?php echo $r["salario"]; ?></td>
+	<td><?php echo $r["contactanos"]; ?></td>
 	<td><?php echo $r["Cargo_Categoria"]; ?></td>
-	<td><?php echo $r["jornada"]; ?></td>
 	<td style="width:150px;">
 		<a href="./editar.php?id=<?php echo $r["id"];?>" class="btn btn-sm btn-warning">Editar</a>
 		<a href="#" id="del-<?php echo $r["id"];?>" class="btn btn-sm btn-danger">Eliminar</a>

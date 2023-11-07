@@ -11,6 +11,6 @@ if(!empty($_GET)){
 				print "<script>alert(\"No se pudo eliminar.\");window.location='../ver.php';</script>";
 
 			}
-}
+};
 
 ?>

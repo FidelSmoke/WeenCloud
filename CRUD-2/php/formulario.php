@@ -30,8 +30,8 @@ while ($r=$query->fetch_object()){
     <input type="text" class="form-control" value="<?php echo $person->salario; ?>" name="Salario" required>
   </div>
   <div class="form-group">
-    <label for="jornada">Jornada</label>
-    <input type="jornada" class="form-control" value="<?php echo $person->jornada; ?>" name="Jornada" required >
+    <label for="contactanos">¿te intereso? contactanos</label>
+    <input type="text" class="form-control" value="<?php echo $person->contactanos; ?>" name="contactanos" required >
   </div>
   <div class="form-group">
     <label for="Cargo_Categoria">Cargo-Categoria</label>
@@ -41,5 +41,5 @@ while ($r=$query->fetch_object()){
   <button type="submit" class="btn btn-default">Actualizar</button>
 </form>
 <?php else:?>
-  <p class="alert alert-danger"> No se encuentra</p>
+  <p class="alert alert-danger">404 No se encuentra</p>
 <?php endif;?>
