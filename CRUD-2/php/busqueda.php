@@ -16,7 +16,6 @@ $query = $con->query($sql1);
 	<th>Salario</th>
 	<th>¿Te interesa? contactanos</th>
 	<th>Cargo_Categoria</th>
-	<th>Num.Contacto</th>
 </thead>
 <?php while ($r=$query->fetch_array()):?>
 <tr>
