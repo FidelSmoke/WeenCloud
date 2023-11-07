@@ -38,7 +38,7 @@
     <input type="text" class="form-control" name="salario" required>
   </div>
   <div class="form-group">
-    <label for="contactanos">¿Te intereso? contactanos</label>
+    <label for="contactanos">¿Como Quieres Que Se Pongan En Contacto Contigo?</label>
     <input type="contactanos" class="form-control" name="contactanos" >
   </div>
   <div class="form-group">
@@ -46,7 +46,7 @@
     <input type="text" class="form-control" name="Cargo_Categoria" >
   </div>
 
-  <button type="submit" class="btn btn-default">Agregar</button>
+  <button type="submit" class="btn btn-default"> <a href="../HOLA/index.php">Agregar</button></a>
 </form>
         </div>
 
