@@ -8,9 +8,9 @@ if(!empty($_POST)){
 			$sql = "insert into person(Lutrabajo,experiencia,salario,contactanos,Cargo_Categoria,created_at) value (\"$_POST[Lutrabajo]\",\"$_POST[experiencia]\",\"$_POST[salario]\",\"$_POST[contactanos]\",\"$_POST[Cargo_Categoria]\",NOW())";
 			$query = $con->query($sql);
 			if($query!=null){
-				print "<script>alert(\"Agregado exitosamente.\");window.location='../ver.php';</script>";
+				print "<script>alert(\"Agregado exitosamente.\");window.location='/WeenCloud/HOLA/index.php';</script>";
 			}else{
-				print "<script>alert(\"No se pudo agregar.\");window.location='../ver.php';</script>";
+				print "<script>alert(\"No se pudo agregar.\");window.location='/WeenCloud/HOLA/index.php';</script>";
 
 			}
 		}

@@ -21,7 +21,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title">Agregar</h4>
+          <h4 class="modal-title">Publicar</h4>
         </div>
         <div class="modal-body">
 <form role="form" method="post" action="php/agregar.php">
@@ -46,7 +46,7 @@
     <input type="text" class="form-control" name="Cargo_Categoria" >
   </div>
 
-  <button type="submit" class="btn btn-default"> <a href="../HOLA/index.php">Agregar</button></a>
+  <button type="submit" class="btn btn-default">Publicar</button >
 </form>
         </div>
 

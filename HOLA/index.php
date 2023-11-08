@@ -10,7 +10,7 @@
 </head>
 <body>
 <div>
-    <a href="../index.php" class="neon" >Gracias Por Confiar En Ween Cloud.</a>
+    <a href="../CRUD-2/index.php" class="neon" >Gracias Por Confiar En Ween Cloud.</a>
 </div>
 </body>
 </html>
