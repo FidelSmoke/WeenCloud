@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <?php
@@ -24,7 +24,7 @@
     ?>
     <header>
         <div class="menu container">
-            <img src="IMG/clouds (1).png" alt="">
+            <img src="IMG/clouds (1).png" alt="" class="log">
             <a href="https://www.instagram.com/weencloud/" class="logo">Ween Cloud </a>
             <input type="checkbox" id="menu">
             <label for="menu">
@@ -37,14 +37,15 @@
                         <a href="index_registrate/index.html"></a>
                     </li>
                 </ul> -->
-                <ul>
+                <ul class="servi">
                     <li> <a href="#servicios">Servicios</a></li>
                     <li> <a href="#contacto">Contactanos</a></li>
                     <li> <form action="controlador/logout.php" method="POST"> <input style=" 
                     background-color: transparent;
                      font-size: 18px;
+                     cursor:pointer;
                     padding: 20px;
-                    color: #ffffff;
+                    color: #ffff;
                     display: block;
                     border:none; " 
                     name="logout" type="submit" value="Cerrar sesion" class="inputnavbar"></form></li>

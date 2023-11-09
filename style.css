@@ -34,10 +34,13 @@ header {
 
 }
 
+
 .menu {
-    position: absolute;
-    top: 10px;
-    left: 0;
+     /* background-color: #4D2BA3;  */
+    animation: movimiento 9.9s linear infinite;                                     
+    position: fixed;
+    top: 0px;
+    left: 0pc;
     right: 0;
     display: flex;
     align-items: center;
@@ -49,21 +52,23 @@ header {
     font-family: 'Bacasime Antique';
     font-weight: 600;
     font-size: 25px;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
 }
 
-.menu .navbar ul li {
+ .menu .navbar ul li {
     position: relative;
     float: left;
+    
 
-}
+} 
 
-.menu .navbar ul li a {
+  .menu .navbar ul li a {
     font-size: 18px;
     padding: 20px;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     display: block;
-}
+}  
+
 
 .menu a.logo{
     font-size: 29px;
@@ -90,7 +95,7 @@ header {
 .header-content {
     display: flex;
     float:right;
-    animation: movimiento 5.9s linear infinite;
+    animation: movimiento 9.9s linear infinite;
 }
 
 .header-content2 img {
@@ -462,3 +467,8 @@ hr {
 
 
 }
+
+
+/* 4D2BA3 */
+
+/* 4827A0 */
