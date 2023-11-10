@@ -103,8 +103,8 @@ header {
     max-width: 1100px;
     display: flex;
     float:right;
-    animation: movimiento 9.9s linear infinite;
-}
+    animation: movimiento 3.9s linear infinite;
+} 
 
 .header-content2 img {
     height: 500px;
