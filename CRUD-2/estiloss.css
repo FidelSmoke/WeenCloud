@@ -1,0 +1,28 @@
+.hola{
+    font-family:'Mukta';
+    animation: movimiento 7s.9s linear infinite;
+    margin-top: 11%;
+    font-size: 80px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.bon{
+     background-color: #000000; 
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translatex( 1000px);
+    }
+    50%{
+        transform: translatex(1000px);
+       }
+
+    50%{
+        transform: translatez(10000px);
+    }
+}
+
+/* 482C9C */
+    

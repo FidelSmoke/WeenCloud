@@ -29,15 +29,24 @@ header {
 }
 
 .container {
-    max-width: 1100px;
     margin: 0 auto;
 
 }
 
+.sanas{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-size:100px 100px ;
+}
 
-.menu {
-     /* background-color: #4D2BA3;  */
-    animation: movimiento 9.9s linear infinite;                                     
+.sss{
+    max-width: 1100px;
+}
+
+
+ .menu {
+    background-color: #482C9C;    
+    background-size:100px 100px;
     position: fixed;
     top: 0px;
     left: 0pc;
@@ -45,8 +54,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000;
-}
+} 
 
 .menu .logo {
     font-family: 'Bacasime Antique';
@@ -56,7 +64,6 @@ header {
 }
 
  .menu .navbar ul li {
-    position: relative;
     float: left;
     
 
@@ -93,6 +100,7 @@ header {
 }
 
 .header-content {
+    max-width: 1100px;
     display: flex;
     float:right;
     animation: movimiento 9.9s linear infinite;
@@ -195,6 +203,7 @@ header {
 }
 
 .porfolios {
+    max-width: 1100px;
     padding: 80px 0px;
     text-align: center;
     color: #0e0e0e;
@@ -232,6 +241,7 @@ header {
 }
 
 .porfolio-2 {
+    max-width:1110 ;
     text-align: left;
     margin-right: 100px;
 }
@@ -468,7 +478,3 @@ hr {
 
 }
 
-
-/* 4D2BA3 */
-
-/* 4827A0 */

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="estiloss.css">
 <?php
 session_start();
 ?>
@@ -9,9 +9,13 @@ session_start();
 	</head>
 	<body class="bon">
 	<?php include "php/navbar.php"; ?>
-	<div>
+
+
+<div>
 	<a class="nube" href="../index.php"><img src="../IMG/clouds (1).png" alt=""></a>
-   		<h1 class="Hola">Bienvenidos A Ween Cloud</h1>
-   </div>
+</div>
+
+
+   		<h1 class="Hola">¡Bienvenidos A Ween Cloud!</h1>
 	</body>
 </html>

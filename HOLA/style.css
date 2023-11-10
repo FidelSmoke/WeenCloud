@@ -21,7 +21,7 @@ body {
 
 .neon{
     text-decoration: none;
-    font-weight: 10;
+    font-weight: 100px;
     color: #fff;
     text-shadow: 0 0 1px #b003f4,
     0 0 10px #2f03f4, 
@@ -30,7 +30,7 @@ body {
     letter-spacing: 5px;
     cursor: pointer;
     text-transform: uppercase;
-    transition: 1s;
+    transition: 0s;
 }
 
  .neon:hover{

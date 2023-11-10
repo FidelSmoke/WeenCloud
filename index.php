@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <?php
@@ -37,17 +37,18 @@
                         <a href="index_registrate/index.html"></a>
                     </li>
                 </ul> -->
-                <ul class="servi">
+                <ul>
                     <li> <a href="#servicios">Servicios</a></li>
                     <li> <a href="#contacto">Contactanos</a></li>
                     <li> <form action="controlador/logout.php" method="POST"> <input style=" 
                     background-color: transparent;
-                     font-size: 18px;
-                     cursor:pointer;
+                    font-size: 18px;
+                    cursor:pointer;
                     padding: 20px;
                     color: #ffff;
                     display: block;
-                    border:none; " 
+                    border:none; 
+                    " 
                     name="logout" type="submit" value="Cerrar sesion" class="inputnavbar"></form></li>
                     
                 </ul>
@@ -104,7 +105,7 @@
 
     <section class="porfolios container" id="servicios">
 
-        <h2>Nuestro Servicio</h2>
+        <h2>Nuestros Servicios</h2>
 
         <div class="porfolio">
 
@@ -135,7 +136,7 @@
     </section>
     <section>
     <footer>
-        <div class="container">
+        <div class="sanas">
             <div class="info" id="contacto"> 
                 <div class="info-content">
                     <div class="info-price">
@@ -162,4 +163,3 @@
 </body>
 
 </html>
-

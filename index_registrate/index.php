@@ -86,8 +86,8 @@
             
             <select name="rol" id="">
               <option value="" disabled selected></option>
-              <option value="Empresario">Empresario</option>
-              <option value="Vacante">Vacante</option>
+              <option value="Empresario" id="emp">Empresario</option>
+              <option value="Vacante" id="vac">Vacante</option>
             </select>
     
                   </label>
